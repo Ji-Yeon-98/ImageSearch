@@ -114,7 +114,7 @@ class SearchFragment : Fragment() {
             text,
             "accuracy",
             1,
-            10
+            80
         )
 
         for( i in 0 until responseData.body()?.documents!!.size){
